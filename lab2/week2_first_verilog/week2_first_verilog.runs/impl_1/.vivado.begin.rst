@@ -13,3 +13,8 @@
     <Process Command="vivado.bat" Owner="hanka" Host="LENONO" Pid="832" HostCore="8" HostMemory="033873780736">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="hanka" Host="LENONO" Pid="13500" HostCore="8" HostMemory="033873780736">
+    </Process>
+</ProcessHandle>

@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Sep  5 09:46:26 2025
-# Process ID: 10752
+# Start of session at: Fri Sep  5 09:57:55 2025
+# Process ID: 19800
 # Current directory: C:/Users/hanka/Desktop/ECE 230L/ece230L/lab2/week2_first_verilog/week2_first_verilog.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Users/hanka/Desktop/ECE 230L/ece230L/lab2/week2_first_verilog/week2_first_verilog.runs/synth_1/top.vds
