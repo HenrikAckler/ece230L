@@ -3,6 +3,6 @@ module top(
     output [15:0] led
 );
 
-    assign 
+    assign led[0] = sw[15:0];
 
 endmodule
