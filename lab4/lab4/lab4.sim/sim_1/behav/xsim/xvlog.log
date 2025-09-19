@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/class/maxterm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxterm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/class/minterm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module minterm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/class/naive.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module naive
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/class/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/class/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
