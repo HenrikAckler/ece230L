@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Sep 19 09:19:13 2025
+# Process ID: 11084
+# Current directory: C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/lab4/lab4.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/lab4/lab4.runs/impl_1/top.vdi
+# Journal file: C:/Users/hanka/Desktop/ECE 230L/ece230L/lab4/lab4/lab4.runs/impl_1\vivado.jou
+# Running On: Lenono, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 8, Host memory: 33873 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

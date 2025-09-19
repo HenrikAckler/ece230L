@@ -4,6 +4,6 @@ module maxterm (
 );
 
 //    assign Y = (A|B|C|D)&(A|~B|C|~D)&( A|~B|~C|~D)&(~A|B|C|D)&(~A|B|C|~D)&(~A|B|~C|~D)&(~A|~B|C|D)&(~A|~B|~C|~D) ;
-    assign Y = (B|C|D) & (~A|B|~D) & (~B|~D);
+    assign Y = (B|C|D) & (~B | ~D) & (~A|~D);
 
 endmodule

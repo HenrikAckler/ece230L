@@ -4,6 +4,6 @@ module minterm (
 );
 
 //assign Y = ~A&~B&~C&D|~A&~B&C&~D|~A&~B&C&C|~A&B&~C&~D|~A&B&C&~D|A&~B&C&~D|A&B&~C&~D|A&B&C&~D;
-assign Y = ~A&~B&D | ~D&(B|C);
+assign Y = ~A&~B&D | B&~D | C&~D;
 
 endmodule
