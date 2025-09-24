@@ -21,14 +21,5 @@ module top(
         .D(sw[6]), 
         .Y(led[1])
     );
-    
-    //assign aToB = circuit_a(sw[0], sw[1], sw[2], sw[3]);
-//    assign led[0] = aToB;
-    
-//    wire bOut;
-    
-//    circuit_b inst_circuit_b(aToB, sw[4], sw[5], sw[6], led[1]);
-    //assign bOut = circuit_b(aToB, sw[4], sw[5], sw[6]);
-//    assign led[1] = bOut;
 
 endmodule

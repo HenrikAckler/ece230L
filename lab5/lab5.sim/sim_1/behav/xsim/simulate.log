@@ -1,0 +1,19 @@
+Time resolution is 1 ps
+Stim  A B C D | Y_a Y_b | Exp_a Exp_b
+0 0 0 0 |  0   1 |   0    1
+0 0 0 1 |  1   0 |   1    0
+0 0 1 0 |  0   0 |   0    0
+0 0 1 1 |  1   0 |   1    0
+0 1 0 0 |  0   1 |   0    1
+0 1 0 1 |  1   0 |   1    0
+0 1 1 0 |  0   1 |   0    1
+0 1 1 1 |  1   0 |   1    0
+1 0 0 0 |  0   1 |   0    1
+1 0 0 1 |  0   0 |   0    0
+1 0 1 0 |  0   0 |   0    0
+1 0 1 1 |  0   0 |   0    0
+1 1 0 0 |  0   1 |   0    1
+1 1 0 1 |  0   1 |   0    1
+1 1 1 0 |  0   1 |   0    1
+1 1 1 1 |  0   1 |   0    1
+$finish called at time : 16 ns : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab5/class/test.v" Line 46
