@@ -104,6 +104,8 @@ read_xdc {{C:/Users/hanka/Desktop/ECE 230L/ece230L/lab5/class/constraints.xdc}}
 set_property used_in_implementation false [get_files {{C:/Users/hanka/Desktop/ECE 230L/ece230L/lab5/class/constraints.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental {C:/Users/hanka/Desktop/ECE 230L/ece230L/lab5/lab5.srcs/utils_1/imports/synth_1/top.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
