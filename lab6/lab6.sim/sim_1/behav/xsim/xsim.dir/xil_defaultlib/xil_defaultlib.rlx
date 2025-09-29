@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/adder.v,1759175219,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v,,adder,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v,1759175491,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/light.v,,full_adder,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/light.v,1759176204,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/top.v,,light,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v,1759174628,verilog,,,,test,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/top.v,1759176680,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v,,top,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
