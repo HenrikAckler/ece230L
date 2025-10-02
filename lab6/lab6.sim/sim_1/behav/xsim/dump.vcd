@@ -1,0 +1,221 @@
+$date
+   Mon Sep 29 14:52:03 2025
+$end
+
+$version
+  2023.2
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test $end
+$var reg 8 ! sw [7:0] $end
+$var wire 5 " led [4:0] $end
+$scope module uut $end
+$var wire 8 # sw [7:0] $end
+$var wire 6 $ led [5:0] $end
+$var wire 1 % carry $end
+$scope module light $end
+$var wire 1 & down $end
+$var wire 1 & up $end
+$var wire 1 ' light $end
+$upscope $end
+$scope module a $end
+$var wire 1 & A $end
+$var wire 1 & B $end
+$var wire 1 ' Y $end
+$var wire 1 ' carry $end
+$upscope $end
+$scope module FA1 $end
+$var wire 1 & A $end
+$var wire 1 & B $end
+$var wire 1 ( Cin $end
+$var wire 1 ' Y $end
+$var wire 1 % Cout $end
+$upscope $end
+$scope module FA2 $end
+$var wire 1 ) A $end
+$var wire 1 * B $end
+$var wire 1 % Cin $end
+$var wire 1 + Y $end
+$var wire 1 , Cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+$end
+
+#200000
+b10110 !
+b1011 "
+b10110 #
+b1011 $
+0&
+1'
+0)
+0*
+
+#400000
+b101001 !
+b10011 "
+b101001 #
+b10011 $
+1&
+1)
+0*
+1+
+
+#600000
+b111111 !
+b11100 "
+b111111 #
+b11100 $
+1&
+0'
+1)
+0*
+
+#800000
+b1001111 !
+b1100 "
+b1001111 #
+b1100 $
+1&
+0)
+0*
+0+
+
+#1000000
+b1011111 !
+b10100 "
+b1011111 #
+b10100 $
+1%
+1&
+0)
+0*
+1+
+
+#1200000
+b1101111 !
+b11100 "
+b1101111 #
+b11100 $
+0%
+1&
+1)
+0*
+
+#1400000
+b1111111 !
+b100 "
+b1111111 #
+b100100 $
+1%
+1&
+1)
+0*
+0+
+1,
+
+#1600000
+b10001111 !
+b10100 "
+b10001111 #
+b10100 $
+0%
+1&
+0)
+1*
+1+
+0,
+
+#1800000
+b10011111 !
+b11100 "
+b10011111 #
+b11100 $
+1&
+0)
+1*
+
+#2000000
+b10101111 !
+b100 "
+b10101111 #
+b100100 $
+1&
+1)
+1*
+0+
+1,
+
+#2200000
+b10111111 !
+b1100 "
+b10111111 #
+b101100 $
+1&
+1)
+1*
+
+#2400000
+b11001111 !
+b11100 "
+b11001111 #
+b11100 $
+1&
+0)
+1*
+1+
+0,
+
+#2600000
+b11011111 !
+b100 "
+b11011111 #
+b100100 $
+1%
+1&
+0)
+1*
+0+
+1,
+
+#2800000
+b11101111 !
+b1100 "
+b11101111 #
+b101100 $
+0%
+1&
+1)
+1*
+
+#3000000
+b11111111 !
+b10100 "
+b11111111 #
+b110100 $
+1%
+1&
+1)
+1*
+1+

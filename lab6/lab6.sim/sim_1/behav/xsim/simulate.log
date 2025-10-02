@@ -1,0 +1,54 @@
+Time resolution is 1 ps
+Test passed!!
+$finish called at time : 3200 ns : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 186
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 12
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 12
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 12
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 12
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 12
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/light.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/adder.v" Line 10
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/adder.v" Line 11
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 7
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 7
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 56
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 57
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 58
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 59
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 20
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 46
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 47
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 48
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 49
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 51
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 52
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 53
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 54
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 23
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 24
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 25
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 26
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 27
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 28
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 29
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 30
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 31
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 32
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 62
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 63
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 64
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 70
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 71
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 76
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/lab6.sim/sim_1/behav/xsim/glbl.v" Line 77
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/light.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/adder.v" Line 10
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/adder.v" Line 11
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 7
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 6
+Stopped at time : 0 fs : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/full_adder.v" Line 7
+Test passed!!
+$finish called at time : 3200 ns : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab6/class/test.v" Line 186

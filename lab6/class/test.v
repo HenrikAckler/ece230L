@@ -19,6 +19,7 @@ module test;
     );
 
     initial begin
+    
         $dumpvars(0, test);
         sw[0] = 0;
         sw[1] = 0;
@@ -117,6 +118,7 @@ module test;
             $display("Test failed! 09");
             $finish;
         end
+
         sw[4] = 1;
         sw[5] = 0;
         sw[6] = 0;
