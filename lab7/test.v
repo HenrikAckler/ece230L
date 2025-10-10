@@ -88,10 +88,8 @@ module test();
         test_half_sub(0, 1); // 0 - 1 = 0, Borrow = 1
 
         // Test One's Complement 
-        //                     +7      -5
-        test_ones_compliment(4'b0111, 4'b0101, 4'b0010);
-        //                      +10      -7     
-        test_ones_compliment(4'b1010, 4'b0111, 4'b0011);
+        test_ones_compliment(4'b0111, 4'b0101, 4'b1100);
+        test_ones_compliment(4'b1010, 4'b0111, 4'b0010);
 
         // Test twos_complement
         test_twos_compliment(8'b01010111);
