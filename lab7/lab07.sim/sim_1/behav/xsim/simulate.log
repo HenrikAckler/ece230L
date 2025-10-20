@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+half_sub Test Passed: A=0, B=1 => Y=1, B_out=1
+ones_compliment Test Passed: A=0111, B=0101 => Y=1100
+ones_compliment Test Passed: A=1010, B=0111 => Y=0010
+twos_compliment Test Passed: A=01010111 => Y=10101001
+twos_compliment Test Passed: A=00000001 => Y=11111111
+twos_compliment Test Passed: A=00000010 => Y=11111110
+twos_compliment Test Passed: A=00001000 => Y=11111000
+$finish called at time : 170 ns : File "C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/test.v" Line 99

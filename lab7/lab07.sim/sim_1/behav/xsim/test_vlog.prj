@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../full_adder.v" \
+"../../../../half_sub.v" \
+"../../../../ones_compliment.v" \
+"../../../../top.v" \
+"../../../../twos_compliment.v" \
+"../../../../test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

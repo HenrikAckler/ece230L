@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/full_adder.v,1759951146,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/half_sub.v,,full_adder,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/half_sub.v,1759951146,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/ones_compliment.v,,half_sub,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/lab07.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/ones_compliment.v,1760109292,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/top.v,,ones_compliment,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/test.v,1760109242,verilog,,,,test,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/top.v,1759951147,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/twos_compliment.v,,top,,,,,,,,
+C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/twos_compliment.v,1760093700,verilog,,C:/Users/hanka/Desktop/ECE 230L/ece230L/lab7/test.v,,twos_compliment,,,,,,,,
