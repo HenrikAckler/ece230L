@@ -5,9 +5,10 @@ module mux(
     output [3:0] Y
     );
     
-    assign Y = sel[1] == 1'b0 ? 
+    assign Y = (sel[1] == 1'b0 ? 
                         sel[0] == 1'b0 ? A : B
                         :
-                        sel[0] == 1'b0 ? C : D;
+                        sel[0] == 1'b0 ? C : D )
+                         & enable;
                      
 endmodule
