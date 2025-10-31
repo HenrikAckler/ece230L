@@ -1,8 +1,8 @@
 module mux(
     input [1:0] sel,
-    input [3:0] A, [3:0] B, [3:0] C, [3:0] D,
+    input [7:0] A, [7:0] B, [7:0] C, [7:0] D,
     input enable,
-    output [3:0] Y
+    output [7:0] Y
     );
     
     assign Y = (sel[1] == 1'b0 ? 

@@ -3,3 +3,4 @@ a.out
 dump.vcd
 *.html
 __pycache__/
+lab9.*

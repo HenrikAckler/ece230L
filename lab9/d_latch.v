@@ -5,7 +5,7 @@ module d_latch(
     output NotQ      // Complement of Q
 );
     always @ (D or E) begin
-        if (E) begin
+        if (E) begin //do we need begin on this line?
             Q <= D;
         end
     end
