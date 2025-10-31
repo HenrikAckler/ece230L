@@ -9,6 +9,6 @@ module mux(
                         sel[0] == 1'b0 ? A : B
                         :
                         sel[0] == 1'b0 ? C : D )
-                         & {4{enable}};
+                         & {8{enable}};
                      
 endmodule
