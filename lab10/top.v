@@ -1,4 +1,4 @@
-module edge_ff_lab(
+module top(
     input  [3:0] sw,   // sw[0] D, sw[1] J, sw[2] K, sw[3] T
     input        btnC, // shared clock
     output [5:0] led   // outputs for all flip-flops
