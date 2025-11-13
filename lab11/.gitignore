@@ -1,2 +1,5 @@
 a.out
 dump.vcd
+/lab11*
+/lab11.sim/*
+lab11.*/*
