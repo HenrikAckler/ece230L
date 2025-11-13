@@ -17,10 +17,12 @@ module t_ff(
 
     // D = Q xor T
     assign D = Q ^ T;
+    
+//    assign Q = r ? 1'b0 : Q;
 
     // Edge-sensitive storage
-    always @(posedge clk) begin
-        if (r != 1'b0) begin
+    always @(posedge clk or posedge r) begin
+        if (r) begin
             Q <= 1'b0;
         end else begin      
             Q <= D;
