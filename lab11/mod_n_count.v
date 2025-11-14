@@ -11,7 +11,9 @@ module mod_n_count(
     wire [2:0] Q;
     wire [2:0] D;
     wire [1:0] faLink;
-    wire reset;
+    wire reset, int_reset; // reset is the signal to the stages, int_reset is the internal reset signal from the dflop
+    
+    assign reset = syncReset | int_reset;
     
     
     //full adders
@@ -25,30 +27,14 @@ module mod_n_count(
     d_ff dffc( .clk(clk), .D(D[2]), .Q(Q[2]), .r(reset));
     
     //dff for pulsing with comparator
-    //TODO, should this be a tff?
+    //TODO, should this be a tff? should be only d flip flop but if he says otherwise its fine
     t_ff tff(.clk(clk), .T(Q[2] & Q[0]), .Q(y));
-    d_ff dff(.clk(clk), .D(Q[2] & Q[0]), .Q(reset));
+    assign int_reset = Q[2] & Q[0];
     
     //assign out q and d
     assign d = D;
     assign q = Q;
-//    assign y = reset;
-    
-    //OLD IMPLEMENTATION BELOW//
-    
-//    //TODO: implement passing in N
-    
-//    //count
-//    syn_count mycounttwoelectricboogaloo ( .enable(enable), .countLoad(countLoad), .d(d), .clk(clk), .syncReset(syncReset), .q(q));
-    
-//    //find number
-//    wire n;
-//    assign n = q[3] & q[2];
-    
-    
-    
-//    //dff    
-//    t_ff tff(.clk(clk), .T(n), .Q(y));
+
     
     
     
