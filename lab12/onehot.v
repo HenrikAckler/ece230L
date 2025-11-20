@@ -1,55 +1,64 @@
 module onehot(
     input w,
     input clk,
+    input reset,
     output z,
-    output [4:0] states
+    output [4:0] state
 );
+
+    //TODO: RESET and OUTPUTS
+    
+    
     wire Anext, Bnext, Cnext, Dnext, Enext;
     wire Astate, Bstate, Cstate, Dstate, Estate;
+    
+    assign state = {Estate, Dstate, Cstate, Bstate, Astate};
 
     dff Adff(
         .Default(1'b1),
         .D(Anext),
         .clk(clk),
-        .Q(Astate)
+        .Q(Astate),
+        .reset(reset)
     );
 
     dff Bdff(
         .Default(1'b0),
         .D(Bnext),
         .clk(clk),
-        .Q(Bstate)
+        .Q(Bstate),
+        .reset(reset)
     );
 
     dff Cdff(
         .Default(1'b0),
         .D(Cnext),
         .clk(clk),
-        .Q(Cstate)
+        .Q(Cstate),
+        .reset(reset)
     );
     
     dff Ddff(
         .Default(1'b0),
         .D(Dnext),
         .clk(clk),
-        .Q(Dstate)
+        .Q(Dstate),
+        .reset(reset)
     );
-
+    
     dff Edff(
         .Default(1'b0),
         .D(Enext),
         .clk(clk),
-        .Q(Estate)
+        .Q(Estate),
+        .reset(reset)
     );
 
     assign z = Cstate | Estate;
 
-    //Astate will never be set?
-    assign Bnext = ~w & (~Bstate & ~Cstate);
+    assign Anext =  1'b0;
+    assign Bnext = ~w & (Astate | Dstate | Estate);
     assign Cnext = ~w & (Bstate | Cstate);
-    assign Dnext = w & (~Dstate & ~Estate);
-    assign Enext = w & (Dstate & Estate);
-    
-    assign states = {Anext, Bnext, Cnext, Dnext, Enext};
-    
+    assign Dnext = w & (Astate | Bstate | Cstate);
+    assign Enext = w & (Dstate | Estate);
 endmodule

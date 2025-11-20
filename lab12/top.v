@@ -5,9 +5,8 @@ module top(
     input btnU // reset
 );
 
-    //w, clk, z
-    onehot one( .w(sw), .clk(btnC), .z(led[0]), .states(led[6:2]) );
-    
-    binary bin( .w(sw), .clk(btnC), .z(led[1]), .states(led[9:7]) );
+    onehot oh (.w(sw), .clk(btnC), .reset(btnU), .z(led[0]), .state(led[6:2]));
+    binary bn (.w(sw), .clk(btnC), .reset(btnU), .z(led[1]), .state(led[9:7]));
+        
 
 endmodule
